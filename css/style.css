@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #083B4C;
+    text-align: center;
+}
+
+h2{
+    font-size: 3rem;
+    color: white;
+    margin: 2rem;
+}
+
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #083B4C;
+}
+
+.square{
+    min-height: 3.5rem;
+    min-width: calc(10% - 10px);
+    border: 1px solid black;
+    background-color: #1388B1;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buzz{
+    background-color: #FFD167;
+}
+
+.fizz{
+    background-color: #0CD6A2;
+}
+
+.fizzbuzz{
+    background-color: #F14670;
+}
